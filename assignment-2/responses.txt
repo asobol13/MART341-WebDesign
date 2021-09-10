@@ -1,0 +1,5 @@
+The world wide web are the websites that we use on a daily basis, while the internet connects someone's computer to the world wide web.
+The internet moves data around via communicating networks. 
+A directory is a folder that helps to organize files.
+VCS will benefit me by allowing for collaboration, storing and restoring versions, and backing up projects.
+My favorite kind of art is music.
