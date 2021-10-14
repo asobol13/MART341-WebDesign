@@ -9,6 +9,7 @@
     <meta name="desription" content="This is a contact page">
     <!-- Other elements: -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style of table -->
     <style>
       table, td, th {
         border:1px solid black;
@@ -18,7 +19,7 @@
         background-color: orange;
       }
       td {
-        background-color: purple;
+        background-color:rgb(206,130,238);
       }
     </style>
   </head>
@@ -68,8 +69,34 @@
         </tr>
         <tr>
           <th scope="row">Saturday</th>
-          <td>9:00AM-10:00PM<td>
+          <td>9:00AM-10:00PM</td>
         </tr>
       </table>
+      <!-- Form element -->
+      <form action="https://www.example.com" method="post" id="sign-in" class="basic-forms">
+        <!-- Question 1 -->
+        <p>Something specific?</p>
+        <textarea name="search" id="textarea">Search
+        </textarea>
+        <input type="submit" name="search" value="Enter"/>
+        <!-- Question 2 -->
+        <p>What are you looking for?:</p>
+        <input type="radio" name="level" value="New Arrivals"/>New Arrivals<br/>
+        <input type="radio" name="level" value="Halloween Costumes"/>Halloween Costumes<br/>
+        <input type="radio" name="level" value="Decorations"/>Decorations<br/>
+        <input type="radio" name="level" value="Accesories"/>Accesories<br/>
+        <input type="radio" name="level" value="Animatronics"/>Animatronics<br/>
+        <!-- Comments and concerns -->
+        <p>Comments or Concerns:</p>
+          <textarea name="comments" id="textarea">Let us know!
+          </textarea>
+        <!-- Email list -->
+        <p>Join our mailing list for spooky deals!</p>
+        <p>E-mail:
+          <input type="text" name="email"
+          placeholder="you@site.com" autofocus/>
+          <input type="submit" name="subscribe"
+          value="Subscribe" />
+       </form>
   </body>
 </html>
