@@ -1,3 +1,3 @@
-1. The difference between
-2. The advantages of
-3. The challenges I had this week
+1. The difference between divs, classes, ids, and spans are that divs group elements together, they are like containers that hold content inside, this way the readability is much better. Classes are an identifier and selector value, they group similar types of elements by using the same name. Ids uses a string as its value which needs to be unique to that certain element. Spans are used to identify text that needs to be unique on the HTML page.
+2. The advantages of using a service like YouTube or Vimeo to host your videos are that its ideal for video and audio files because it can host large, high quality versions of files, it can handle all details that are needed for the media to play on multiple different browsers so you don't have to do any of the work. The disadvantages would be that unlicensed materials that are used without permission can be reported and it can also become expensive to upgrade storage and other services.
+3. The challenges I had this week were getting the audio to actually play, it took me a while to do but I think my problem was the formatting. I was just looking at multiple different examples and for some reason it took me a while to realize my problem was pretty simple.
