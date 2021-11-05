@@ -6,11 +6,12 @@ body{
 .main-container{
   border-style: solid;
   border-width: 10px;
-  border-color: olive;
+  border-color: SteelBlue;
   padding: 10px;
   background: orange;
   width:75%;
   margin:auto;
+  color: SaddleBrown;
 }
 /* Floating image to the right of heading */
 .image-container{
@@ -22,10 +23,13 @@ div.align{
 }
 
 .second-container{
-
+  margin: auto;
+  width:
+  padding: 10px;
+  border
 }
 
 #mainheading{
-  /*Creating space between heading and h2*/
-  padding:10px;
+  position: center;
+  color: olive;
 }
