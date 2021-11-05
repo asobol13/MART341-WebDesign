@@ -21,6 +21,7 @@ body{
 /*aligning div containers*/
 div.align{
   text-align: center;
+  color: SteelBlue;
 }
 
 .second-container{
