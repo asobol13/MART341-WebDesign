@@ -8,7 +8,7 @@ body{
   border-width: 10px;
   border-color: SteelBlue;
   padding: 10px;
-  background: orange;
+  background: rgba(255, 165, 0, 0.3);/*orange with opacity*/
   width:75%;
   margin:auto;
   color: SaddleBrown;
@@ -16,6 +16,7 @@ body{
 /* Floating image to the right of heading */
 .image-container{
   float: right;
+  padding: 20px;
 }
 /*aligning div containers*/
 div.align{
@@ -26,7 +27,7 @@ div.align{
   margin: auto;
   width: 40%;
   padding: 10px;
-  border-bottom: 1px rgba(190, 78, 37, 0.3); /*redish color with opacity*/
+  border-bottom: 1px rgba(190, 78, 37, 1);
   border-spacing: inherit;
 }
 
