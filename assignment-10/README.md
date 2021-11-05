@@ -1,3 +1,3 @@
-1.
-2.
-3.
+1. The difference between universal, element, class, and id selector types is that the universal styles every element, the element selects all elements of a certain type, the class selects elements that serve the same functions, and the id lets you style a specific element by using the id. You might choose to use the universal element for font for example but you want maybe a specific element to be different then you use the id selector type. 
+2. The color palette I have going right now contains indigo, #B11711, rgba(255, 165, 0, 0.7), SaddleBrown, SteelBlue, and olive. I chose these colors because to me they reminded me the most of the 70s, especially the purple. The purple reminds me of some nice shag rugs. It actually went perfect with the rest of the colors too because the 70s was a time of bold colors and crazy patterns so to me the colors were a perfect mix of complimenting but also contrasting.
+3. The challenges I had this week were mainly little things like getting the picture in the right spot or getting the color that I wanted, just more tedious work really. I just really looked over my work multiple times and ended up having to research a couple of things as well but it was fun!
