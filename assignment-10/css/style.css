@@ -4,13 +4,19 @@ body{
 }
 /* Styling the main */
 .main-container{
-
+  border-style: solid;
+  border-width: 10px;
+  border-color: olive;
+  padding: 10px;
+  background: orange;
+  width:75%;
+  margin:auto;
 }
 /* Floating image to the right of heading */
 .image-container{
   float: right;
 }
-
+/*aligning div containers*/
 div.align{
   text-align: center;
 }
