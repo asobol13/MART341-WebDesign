@@ -24,12 +24,14 @@ div.align{
 
 .second-container{
   margin: auto;
-  width:
+  width: 40%;
   padding: 10px;
-  border
+  border-bottom: 1px rgba(190, 78, 37, 0.3); /*redish color with opacity*/
+  border-spacing: inherit;
 }
 
 #mainheading{
   position: center;
   color: olive;
+  font-size: 100px;
 }
