@@ -8,15 +8,14 @@ body{
   border-width: 10px;
   border-color: SteelBlue;
   padding: 10px;
-  background: rgba(255, 165, 0, 0.3);/*orange with opacity*/
-  width:75%;
+  background: rgba(255, 165, 0, 0.7);/*orange with opacity*/
+  width:50%;
   margin:auto;
   color: SaddleBrown;
 }
 /* Floating image to the right of heading */
 .image-container{
   float: right;
-  padding: 20px;
 }
 /*aligning div containers*/
 div.align{
@@ -35,4 +34,5 @@ div.align{
   position: center;
   color: olive;
   font-size: 100px;
+
 }
