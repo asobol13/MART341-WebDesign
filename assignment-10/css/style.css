@@ -9,7 +9,7 @@ body{
   border-color: SteelBlue;
   padding: 10px;
   background: rgba(255, 165, 0, 0.7);/*orange with opacity*/
-  width:50%;
+  width:80%;
   margin:auto;
   color: SaddleBrown;
 }
@@ -34,5 +34,4 @@ div.align{
   position: center;
   color: olive;
   font-size: 100px;
-
 }
