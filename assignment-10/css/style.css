@@ -1,3 +1,4 @@
+/*Font for the page */
 body{
   font-family: 'Optima', sans-serif;
 }
@@ -5,7 +6,7 @@ body{
 .main-container{
 
 }
-
+/* Floating image to the right of heading */
 .image-container{
   float: right;
 }
@@ -19,5 +20,6 @@ div.align{
 }
 
 #mainheading{
-
+  /*Creating space between heading and h2*/
+  padding:10px;
 }
