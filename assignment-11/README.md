@@ -1,3 +1,3 @@
 1. The difference between a system font, web font, and web-safe font is that a system font are already on your local device but isn't necessarily on the web. Web fonts are custom fonts that are hosted on a server and need to have specific elements called properly (doesn't need to be available on user device). Web-safe fonts are available by the system that Windows and Mac both should have and the computer should already have the font.
 2. It's important to use fallback fonts just in case the font you chose can't be found. This way it's able to go through the list of fonts you created to find the one that will be able to be used.
-3. Some of the challenges
+3. Some of the challenges I faced for this week were little tiny errors that I overlooked. The fonts were also a little tedious but I have a better idea of how they work. 

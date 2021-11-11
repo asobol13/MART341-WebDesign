@@ -1,3 +1,5 @@
+* {background-color: #B4DAEE;}
+
 /*Overall style/fonts*/
 body{
   background-color: EFF197;
@@ -6,10 +8,10 @@ body{
 .main-container{
   text-align: center;
   line-height: 1.45em;
-  margin-bottom: 10px;
+  margin: auto;
   padding: 10px;
-  background: B4DAEE;
-  width: 50%;
+  border: 3px solid black;
+  width: 1200px;
 }
 /*Normal paragraphs*/
 .paragraph-one{
@@ -55,6 +57,8 @@ h1, h2, h3{
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
+  padding: 10px;
+  line-height: 1.5em;
 }
 /*Styling link element with pseudo-class*/
 a:link{
