@@ -1,13 +1,21 @@
 /*Overall style/fonts*/
 body{
-
+  background-color: EFF197;
 }
 /*Whole excerpt style*/
 .main-container{
-
+  text-align: center;
+  line-height: 1.45em;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: B4DAEE;
 }
+/*Normal paragraphs*/
 .paragraph-one{
-
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
 }
 /*Attaching pseudo element*/
 .paragraph-one::first-line{
@@ -15,24 +23,37 @@ body{
     font-variant: small-caps;
 }
 .paragraph-two{
-
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
 }
 .paragraph-three{
-
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
 }
 .paragraph-four{
-
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
 }
+/*Bolding the important paragraph*/
 .paragraph-five{
-
+  font-family: SourceSansPro, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
 }
 /*Styling headings*/
 h1, h2, h3{
   text-align: center;
-  font-family:
-  font-size:
-  font-weight:
-  font-style:
+  font-family: RedHatMono, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
 }
 /*Styling link element with pseudo-class*/
 a:link{
