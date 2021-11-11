@@ -1,4 +1,53 @@
+/*Overall style/fonts*/
+body{
 
+}
+/*Whole excerpt style*/
+.main-container{
+
+}
+.paragraph-one{
+
+}
+/*Attaching pseudo element*/
+.paragraph-one::first-line{
+    color: #140749;
+    font-variant: small-caps;
+}
+.paragraph-two{
+
+}
+.paragraph-three{
+
+}
+.paragraph-four{
+
+}
+.paragraph-five{
+
+}
+/*Styling headings*/
+h1, h2, h3{
+  text-align: center;
+  font-family:
+  font-size:
+  font-weight:
+  font-style:
+}
+/*Styling link element with pseudo-class*/
+a:link{
+  color: #335EA2;
+  text-decoration: none;
+}
+a:visited{
+  color: #969BA3
+  text-decoration: none;
+}
+a:hover{
+  color: #9C2DCB;
+  font-style: italic;
+}
+/*Italics for singular words*/
 .emphasis{
   font-style: italic;
 }
