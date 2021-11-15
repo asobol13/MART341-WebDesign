@@ -1,0 +1,79 @@
+* {background-color: #B4DAEE;}
+
+/*Overall style/fonts*/
+body{
+  background-color: EFF197;
+}
+/*Whole excerpt style*/
+.main-container{
+  text-align: center;
+  line-height: 1.45em;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid black;
+  width: 1200px;
+}
+/*Normal paragraphs*/
+.paragraph-one{
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*Attaching pseudo element*/
+.paragraph-one::first-line{
+    color: #140749;
+    font-variant: small-caps;
+}
+.paragraph-two{
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+.paragraph-three{
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+.paragraph-four{
+  font-family: SourceSansPro, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*Bolding the important paragraph*/
+.paragraph-five{
+  font-family: SourceSansPro, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+/*Styling headings*/
+h1, h2, h3{
+  text-align: center;
+  font-family: RedHatMono, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  line-height: 1.5em;
+}
+/*Styling link element with pseudo-class*/
+a:link{
+  color: #335EA2;
+  text-decoration: none;
+}
+a:visited{
+  color: #969BA3
+  text-decoration: none;
+}
+a:hover{
+  color: #9C2DCB;
+  font-style: italic;
+}
+/*Italics for singular words*/
+.emphasis{
+  font-style: italic;
+}
