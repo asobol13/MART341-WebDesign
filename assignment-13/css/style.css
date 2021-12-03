@@ -80,6 +80,10 @@ header{
   text-align: center;
 }
 /*photo positioning*/
+img{
+  max-width: 100%;
+  height: auto;
+}
 .main-image{
   display: block;
   margin-left: auto;
