@@ -1,0 +1,69 @@
+/*Overall style*/
+* {
+  background-color: #F0F0F5;
+}
+h1{
+  text-align:center;
+  font-family: PTSans, sans-serif;
+  color: #2E5C1A;
+}
+/*Change font*/
+main-content{
+  font-family: FuzzyBubbles, sans-serif;
+}
+/*Style nav bar*/
+header{
+  background-color: #2E5C1A;
+  font-family: PTSans, sans-serif;
+  font-size: 10pt;
+  text-transform: uppercase;
+  margin: 0;
+  height: 2.10em;
+  text-align: center;
+  position: sticky;
+}
+/*Layout of menu bar*/
+.menu-item{
+  display: inline-block;
+  margin: 0 0;
+  text-align: center;
+
+}
+/*Link styles*/
+.menu-item a{
+  color: #FFCC7E;
+  background-color: #2E5C1A;
+  text-align: center;
+}
+.menu-item:hover{
+  background-color: #BC0000;
+}
+/*Dropdown*/
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content{
+  position: absolute;
+  border: 1px solid #B8AEA4;
+}
+.dropdown-item{
+  display: block;
+  text-align: center;
+}
+/*textbox contact page position*/
+.textboxes{
+  text-align: center;
+}
+/*photo positioning*/
+.main-image{
+
+}
+.second-image{
+  float: left;
+}
+.third-image{
+  float: right;
+}
+.fourth-image{
+  
+}
