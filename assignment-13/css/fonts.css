@@ -1,12 +1,12 @@
 /*Font file*/
 @font-face {
-  font-family: 'FuzzyBubbles' format('truetype');
-  src: url('../fonts/FuzzyBubbles-Bold.ttf');
-  font-style: bold;
+  font-family: 'Raleway' format('truetype');
+  src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf');
+  font-style: italic;
 }
 @font-face{
-  font-family: 'FuzzyBubbles' format('truetype');
-  src: url('../fonts/FuzzyBubbles-Regular.ttf');
+  font-family: 'Raleway' format('truetype');
+  src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf');
   font-style: normal;
 }
 @font-face{

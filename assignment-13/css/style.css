@@ -5,11 +5,17 @@
 h1{
   text-align:center;
   font-family: PTSans, sans-serif;
-  color: #2E5C1A;
+  color: #BC0000;
 }
 /*Change font*/
-main-content{
-  font-family: FuzzyBubbles, sans-serif;
+.main-content{
+  font-family: Raleway, sans-serif;
+  padding: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 /*Style nav bar*/
 header{
@@ -56,14 +62,27 @@ header{
 }
 /*photo positioning*/
 .main-image{
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 .second-image{
   float: left;
+  height: auto;
 }
 .third-image{
   float: right;
+  height: auto;
 }
 .fourth-image{
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 50%;
+  height: auto;
+  text-align: center;
 }
