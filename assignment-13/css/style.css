@@ -26,14 +26,15 @@ header{
   margin: 0;
   height: 2.10em;
   text-align: center;
-  position: sticky;
+  position: fixed;
 }
 /*Layout of menu bar*/
 .menu-item{
   display: inline-block;
   margin: 0 0;
+  min-width: 10em;
   text-align: center;
-
+  background-color: #2E5C1A;
 }
 /*Link styles*/
 .menu-item a{
@@ -44,20 +45,35 @@ header{
 .menu-item:hover{
   background-color: #BC0000;
 }
-.menu-item:visited{
-  color: #777;
-}
 /*Dropdown*/
 .dropdown{
   display: inline-block;
 }
+.dropdown-item a{
+  background-color: #F0F0F5;
+}
 .dropdown-content{
+  display: none;
   position: absolute;
   border: 1px solid #B8AEA4;
+  background-color: #2E5C1A;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-item a:visited{
+  color: #777;
 }
 .dropdown-item{
-  display: block;
+  display:block;
   text-align: center;
+  margin: 0;
+  padding: 0.5em;
+  /*min-width:7em;*/
+}
+.dropdown-item:hover, .dropdown-item:hover a{
+  color: #FFCC7E;
+  background-color: #2E5C1A;
 }
 /*textbox contact page position*/
 .textboxes{
