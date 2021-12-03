@@ -1,6 +1,7 @@
 /*Overall style*/
 * {
   background-color: #F0F0F5;
+  box-sizing: border-box;
 }
 h1{
   text-align:center;
@@ -68,8 +69,8 @@ header{
   display:block;
   text-align: center;
   margin: 0;
-  padding: 0.5em;
-  /*min-width:7em;*/
+  padding: 40px;
+  min-width:7em;
 }
 .dropdown-item:hover, .dropdown-item:hover a{
   color: #FFCC7E;
@@ -86,6 +87,7 @@ header{
   margin-right: auto;
   width: 50%;
   height: auto;
+  position: relative;
 }
 .second-image{
   float: left;
@@ -104,4 +106,5 @@ header{
   width: 50%;
   height: auto;
   text-align: center;
+  position: relative;
 }
