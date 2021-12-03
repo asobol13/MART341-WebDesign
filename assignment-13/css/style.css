@@ -24,10 +24,9 @@ header{
   font-family: PTSans, sans-serif;
   font-size: 10pt;
   text-transform: uppercase;
-  margin: 0;
-  height: 2.10em;
   text-align: center;
-  position: fixed;
+  position: sticky;
+  margin-bottom: 20px;
 }
 /*Layout of menu bar*/
 .menu-item{
@@ -87,7 +86,6 @@ header{
   margin-right: auto;
   width: 50%;
   height: auto;
-  position: relative;
 }
 .second-image{
   float: left;
@@ -106,5 +104,4 @@ header{
   width: 50%;
   height: auto;
   text-align: center;
-  position: relative;
 }
