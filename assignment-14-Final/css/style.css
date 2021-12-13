@@ -112,15 +112,15 @@ P{
 }
 /*Styling the about paragraph*/
 .aboutparagraph{
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 5vw;
+  margin-right: 5vw;
   font-size: 24px;
   padding-bottom: 35px;
 }
 /*Styling the home paragraph*/
 .homeparagraph{
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 5vw;
+  margin-right: 5vw;
   margin-top: 2em;
   margin-bottom: 5em;
   font-size: 24px;
@@ -165,13 +165,3 @@ img{
   height: auto;
 }
 /*Making mobile responsive text*/
-@media screen and (min-width: 601px) {
-  div.aboutparagraph{
-    font-size: 80px;
-  }
-}
-@media screen and (max-width: 600px) {
-  div.aboutparagraph{
-    font-size: 30px;
-  }
-}
