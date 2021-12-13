@@ -1,0 +1,161 @@
+/*background color*/
+*{
+  background-color: #F4EBD9;
+  font-family: Merriweather RobotoSlab sans-serif;
+}
+/*Styling Headings*/
+h1{
+  padding: 2em;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  padding: 2em;
+}
+/*Nav bar style*/
+header{
+  background-color: #058ED9;
+  font-family:
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  margin: 0;
+  width: 99%;
+}
+/*Layout of menu bar*/
+.menu-item{
+  display: inline-block;
+  color: black;
+  background-color: #058ED9;
+  float: left;
+  margin: 0 0;
+  width: 10em;
+  padding: 0.5em 0;
+  border-right:1px solid #A39A92;
+}
+/*Link styles*/
+.menu-item a{
+  color: #483D3F;
+  background-color: #058ED9;
+}
+.menu-item:hover{
+  background-color: #0473ae;
+  color: #483D3F;
+}
+.menu-item:hover a{
+  background-color: #0473ae;
+}
+/*Dropdown*/
+.dropdown{
+  display: inline-block;
+  position: relative;
+  background-color: #058ED9;
+}
+.dropdown-item a{
+  background-color: #058ED9;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  border: 1px solid #483D3F;
+  background-color: #058ED9;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown-item a:visited{
+  color: #636664;
+  background-color: #058ED9;
+}
+.dropdown-item{
+  display: block;
+  text-align: left;
+  padding: 40px;
+  color: black;
+  background-color: #058ED9;
+}
+.dropdown-item:hover, .dropdown-item:hover a{
+  color: #483D3F;
+  background-color: #0473ae;
+}
+/*Responsive menu*/
+
+/*textbox contact page position*/
+.textboxes{
+  text-align: center;
+  height: 200px;
+  font-size: 14pt;
+  padding: 0.5em 0.5em;
+  padding-bottom: 30%;
+}
+#name{
+  height: 35px;
+  width: 350px;
+}
+#number{
+  height: 35px;
+  width: 350px;
+}
+#email{
+  height: 35px;
+  width: 350px;
+}
+#textarea{
+  height: 250px;
+  width: 450px;
+}
+/*Centering paragraphs*/
+P{
+  text-align: center;
+  padding: 0.5em;
+}
+/*Styling the about paragraph*/
+.aboutparagraph{
+  margin-left: 15em;
+  margin-right: 15em;
+  font-size: 24px;
+  padding-bottom: 35px;
+}
+/*Styling the home paragraph*/
+.homeparagraph{
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  font-size: 24px;
+}
+/*Styling images*/
+img{
+  max-width: 100%;
+  height: auto;
+  margin: 35px;
+  padding: 30px;
+  border-radius: 35px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column{
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.aboutimage{
+  float: left;
+}
+.LaserVideo{
+  float: right;
+  padding-bottom: 10%;
+}
+/*Centering map*/
+.location{
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 20%;
+}

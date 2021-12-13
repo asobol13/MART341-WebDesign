@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Adding meta elements -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Laser">
+    <meta name="author" content="Allison Sobol">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Tech Support Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Creating nav bar -->
+    <header class="">
+      <div class="menu-item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="menu-item">
+        <a href="about.html">About</a>
+      </div>
+      <div class="menu-item">
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <!-- Making dropdown content -->
+      <div class="menu-item dropdown">
+        <a href="#">Contact</a>
+        <div class="dropdown-content">
+          <div class="dropdown-item">
+            <a href="techsupport.html">Tech Support</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="location.html">Location</a>
+          </div>
+          <div class="dropdown-item">
+            <a href="sales.html">Sales</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- tech support information content-->
+    <div class="techsupportcontent">
+      <h1>Welcome to Tech Support</h1>
+        <h2>If you're having any troubles please fill out and submit the form below or feel free call us at (***)***-****. We will be happy to assist you!</h2>
+    </div>
+    <!--Adding text boxes-->
+    <div class="textboxes">
+    <form action="http://www.example.com.php" method="post" id="sign-in" class="forms">
+      <input type="text" id="name" name="name" placeholder="Name"><br><br>
+      <input type="Phone number" id="number" name="number" placeholder="Phone Number"/><br><br>
+      <input type="email" id="email" name="email" placeholder="Email"/><br><br>
+      <textarea name="comments" id="textarea" placeholder="Let us know how we can help!"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+  </body>
+</html>
