@@ -129,9 +129,9 @@ P{
 img{
   max-width: 100%;
   height: auto;
-  margin-top: 20vh;
-  margin: 20%;
-  padding: 30px;
+  margin-top: 30vh;
+  margin: 10%;
+  padding: 20px;
   border-radius: 35px;
 }
 .row{
@@ -148,8 +148,7 @@ img{
   vertical-align: middle;
 }
 .aboutimage{
-  float: left;
-  padding: 5em;
+  float: right;
   max-width: 100%;
   height: auto;
 }
