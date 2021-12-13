@@ -2,7 +2,6 @@
 *{
   background-color: #F4EBD9;
   font-family: Merriweather RobotoSlab sans-serif;
-  box-sizing: border-box;
 }
 /*Styling Headings*/
 h1{
@@ -80,8 +79,6 @@ header{
   color: #483D3F;
   background-color: #0473ae;
 }
-/*Responsive menu*/
-
 /*textbox contact page position*/
 .textboxes{
   text-align: center;
@@ -89,6 +86,7 @@ header{
   font-size: 14pt;
   padding: 0.5em 0.5em;
   padding-bottom: 30%;
+  width: 100%;
 }
 #name{
   height: 35px;
@@ -150,6 +148,7 @@ img{
 .aboutimage{
   float: left;
 }
+/*Styling the video*/
 .LaserVideo{
   float: right;
   padding-bottom: 10%;
