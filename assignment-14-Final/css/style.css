@@ -112,15 +112,15 @@ P{
 }
 /*Styling the about paragraph*/
 .aboutparagraph{
-  margin-left: 15em;
-  margin-right: 15em;
+  margin-left: 5em;
+  margin-right: 5em;
   font-size: 24px;
   padding-bottom: 35px;
 }
 /*Styling the home paragraph*/
 .homeparagraph{
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 5em;
+  margin-right: 5em;
   margin-top: 2em;
   margin-bottom: 5em;
   font-size: 24px;
