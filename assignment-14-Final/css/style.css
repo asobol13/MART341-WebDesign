@@ -2,6 +2,7 @@
 *{
   background-color: #F4EBD9;
   font-family: Merriweather RobotoSlab sans-serif;
+  box-sizing: border-box;
 }
 /*Styling Headings*/
 h1{
@@ -152,10 +153,14 @@ img{
 .LaserVideo{
   float: right;
   padding-bottom: 10%;
+  max-width: 100%;
+  height: auto;
 }
 /*Centering map*/
 .location{
   text-align: center;
   padding: 0.5em;
   padding-bottom: 20%;
+  max-width: 100%;
+  height: auto;
 }

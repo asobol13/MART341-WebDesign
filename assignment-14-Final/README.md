@@ -1,3 +1,3 @@
-1. All of the material I learned this semester was pretty much new to me
-2. Everything I learned in this class was new to me
-3. The challenges I had
+1. All of the material I learned this semester was new to me regarding web development! I learned so much from this class and am really excited to have found something new that I really enjoy!!
+2. All of the web design material was also all new to me!
+3. The challenges I had this week were the nav bar, my video, and getting to the end realizing I needed to account for mobile devices.... The nav bar was just a lot of moving around certain elements to try and get it the exact way I wanted it. The video I put in but realized it needed to be in an mp4 vs an MOV which I totally spaced but ended up getting it. Then I was all finished and wanted to check how it looked on my phone and realized I needed to fix it. I should've accounted for it in the first place but I didn't, it turned out good though!
