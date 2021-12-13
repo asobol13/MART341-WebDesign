@@ -2,6 +2,7 @@
 *{
   background-color: #F4EBD9;
   font-family: Merriweather RobotoSlab sans-serif;
+  box-sizing: border-box;
 }
 /*Styling Headings*/
 h1{
@@ -162,4 +163,15 @@ img{
   padding-bottom: 20%;
   max-width: 100%;
   height: auto;
+}
+/*Making mobile responsive text*/
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
 }
