@@ -129,7 +129,7 @@ P{
 img{
   max-width: 100%;
   height: auto;
-  margin: 35px;
+  margin: 20%;
   padding: 30px;
   border-radius: 35px;
 }
@@ -148,6 +148,7 @@ img{
 }
 .aboutimage{
   float: left;
+  padding: 5em;
 }
 /*Styling the video*/
 .LaserVideo{
@@ -164,4 +165,3 @@ img{
   max-width: 100%;
   height: auto;
 }
-/*Making mobile responsive text*/
